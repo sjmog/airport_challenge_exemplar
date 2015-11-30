@@ -46,6 +46,6 @@ class Airport
   end
 
   def remove_plane(plane)
-    planes.pop
+    planes.delete(plane)
   end
 end
